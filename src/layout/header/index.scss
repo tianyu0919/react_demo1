@@ -1,0 +1,14 @@
+.Header-outBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 46px;
+
+  .Header-logo {
+    min-width: 100px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f0f0f0;
+    height: 100%;
+  }
+}
