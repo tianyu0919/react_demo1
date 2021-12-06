@@ -6,7 +6,7 @@ import Loading from '@/components/Loading'
 const IndexLayout: FC = (props) => {
 
   const getList = (): void => {
-    console.log('xxx');
+    console.log('xxxx');
     axios.get('/api/get_mm_asr_text', {
       params: {
         url: 'www.baidu.com',
